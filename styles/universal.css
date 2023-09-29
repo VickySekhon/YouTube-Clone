@@ -1,0 +1,35 @@
+/* Universally applied */ 
+p{
+     font-family: Roboto, Arial;
+     color: white; 
+} 
+
+*{
+     margin: 0px;
+     padding: 0px;
+     background-color: rgba(12, 12, 12, 0.94);
+}
+
+
+body{
+     padding: 80px;
+     margin: 0px;
+}
+
+
+body::-webkit-scrollbar {
+     width: 8px;
+     background-color: rgba(12, 12, 12, 0.94);
+   }
+    
+   body::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   }
+    
+   body::-webkit-scrollbar-thumb {
+     background-color: darkgrey;
+     outline: 1px solid slategrey;
+     border-radius: 20px;
+   }
+
+

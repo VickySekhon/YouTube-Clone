@@ -1,0 +1,146 @@
+.header{
+     height: 55px; 
+     display: flex;
+     justify-content:space-between;
+     flex-direction: row;
+     margin-bottom: 20px;
+     position: fixed;
+     top: 0;
+     left: 0; 
+     right: 0;
+     bottom: 0;
+     background-color: black;
+     padding: 10px;
+}
+
+
+.left-section {
+     width: 300px;  
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     background-color: black;
+}
+.hamburger {
+     width: 24px;
+     margin-right: 24px;
+     margin-left: 24px;
+     transition: opacity 0.15s;    
+}
+.youtube-logo{
+     width: 40px;
+     transition: opacity 0.15s;
+}
+.youtube-logo:hover, .hamburger:hover{
+     opacity: 0.7;
+     cursor: pointer;
+}
+
+
+.right-section {
+     width: 300px;
+     align-items: right;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+}
+.upload-icon, .notifications-icon, .profile-picture{
+     width: 24px;
+     transition: opacity 0.15;
+} 
+.upload-icon{
+     margin-left: 60px;
+     margin-right: 20px;
+}
+.upload-icon:hover, .notifications-icon:hover, .profile-picture:hover{
+     cursor: pointer;         
+     opacity: 0.7;
+} 
+.notifications-icon{
+     margin-right: 20px;
+}
+.notification-container{
+     position: relative;
+}
+
+.notification-number{
+     position: absolute; 
+     background-color: rgb(189, 7, 7);
+     color: white;
+     top:0;
+     right: 10px;
+     border-radius: 50%;
+     padding-top: 0;
+     padding-bottom: 0;
+     padding-right:6px;
+     padding-left :6px;
+}
+
+
+.middle-section{ 
+     flex: 1;
+     margin-right: 50px;
+     margin-left: 80px; 
+     max-width: 550px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+/* youtube search bar */
+.search-bar { 
+     font-size: 16px;
+     color: rgb(96,96,96);
+     background-color: rgba(22, 21, 21, 0.94);
+     padding-left: 20px;
+     border-radius: 20px;
+     border: transparent;
+     border-color: grey; 
+     display: flex; 
+     flex: 1;
+     padding: 10px;
+     margin-left: 8px;
+     min-width: 10px;
+}
+.search-bar:focus { 
+     outline: none;
+}
+/* gets rid of the placeholder when the search bar is in focus*/ 
+.search-bar:focus::placeholder{ 
+     color: transparent;
+}
+.search-bar:focus{
+     color: white;
+}
+.search-button{
+     width: 40px;
+     border-radius: 20px;
+     margin-left: -40px;
+     border: none;
+     background-color: transparent;
+     display: flex; 
+     align-items: center;
+     font-size: 16px;
+     color: rgb(96,96,96);
+     transition: opacity 0.15s;
+}
+.search-button:hover{
+     cursor: pointer;
+     opacity: 0.7;  
+}
+.mic{
+     width: 12px;
+     display: flex; 
+}
+.mic-button {
+     margin-left: 20px;
+     display: flex; 
+     align-items: center;     
+     border: none; 
+     background-color: transparent;
+}
+.mic-button:hover{
+     opacity: 0.7; 
+     cursor: pointer;
+}
+

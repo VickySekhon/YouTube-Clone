@@ -1,0 +1,106 @@
+.sidebar{
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     top: 75px;
+     background-color: rgba(12, 12, 12, 0.94);
+     width: 150px;
+     font-family: Roboto;
+}
+
+
+.top-buttons{
+     display: grid;
+     align-items: top;
+     justify-content: center;
+     padding: 15px;
+     border-bottom-color: rgb(94, 93, 93);
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+}
+
+.home-button, .shorts-button, .subscriptions-button{
+     color: white;
+     border: none;
+     padding: 10px;
+     border-radius: 10px;
+     font-size: 14px;
+     text-align: left;
+}
+
+.home-button:hover, .shorts-button:hover, .subscriptions-button:hover{
+     background-color: rgb(94, 93, 93);
+     cursor: pointer;
+
+}
+.home-button{
+     background-color: rgb(71, 70, 70);
+}
+
+
+
+.middle-buttons{
+     display: grid;
+     align-items: top;
+     padding: 15px;
+     justify-content: center;
+     border-bottom-color: rgb(94,93,93);
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+}
+
+
+.library-button, .history-button, .your-videos-button, .watch-later-button, .web-dev-button, .show-more-button{
+     color: white;
+     border: none;
+     padding: 10px;
+     border-radius: 10px;
+     font-size: 14px;
+     text-align: left;
+}
+
+
+.library-button:hover, .history-button:hover, .your-videos-button:hover, .watch-later-button:hover, .web-dev-button:hover, .show-more-button:hover{
+     background-color: rgb(94, 93, 93);
+     cursor: pointer;
+}
+
+
+.bottom-buttons{
+     display: grid;
+     align-items: top;
+     padding: 15px;
+     justify-content: center;
+     border-bottom-color: rgb(94,93,93);
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+}
+
+.bottom-header{
+     margin-bottom: 10px;
+     font-size: 16px;
+}
+
+.five-minute-crafts-button, .abc-news-button, .architectural-digest-button, .avatar-button, .disney-xd-button, .doaba-tv-button, .learn-french-button, .lego-button, .linus-button, .meditation-button, .show-more-button2{
+     color: white;
+     border: none;
+     padding: 10px;
+     border-radius: 10px;
+     font-size: 14px;
+     text-align: left;
+}
+
+.five-minute-crafts-button:hover, .abc-news-button:hover, .architectural-digest-button:hover, .avatar-button:hover, .disney-xd-button:hover, .doaba-tv-button:hover, .learn-french-button:hover, .lego-button:hover, .linus-button:hover, .meditation-button:hover, .show-more-button2:hover{
+     background-color: rgb(94, 93, 93); 
+     cursor: pointer;
+}
+
+.img-pic{
+     display: flex;
+     height: 25px;
+     border-radius: 50%;
+}
+
+.img-name{
+     display: flex;
+}
