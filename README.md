@@ -18,4 +18,4 @@ SuperSimpleDev: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=14016s
 5. channel-pictures, icons, thumbnails, and sidebar-channel-pictures contain all images associated with the page. 
 
 ## Project
-https://vickysekhon.github.io/YouTube-Clone/
+https://vickysekhon.github.io/YouTubeClone/
