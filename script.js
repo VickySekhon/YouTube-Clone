@@ -18,4 +18,3 @@ searchInput.addEventListener("keydown", (event) => {
           searchYoutube();
      }
 })
-
